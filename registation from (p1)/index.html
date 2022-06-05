@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="main-block">
+      <h1>Registration</h1>
+      <form action="/">
+        <hr />
+        <div class="account-type">
+          <input
+            type="radio"
+            value="none"
+            id="radioOne"
+            name="account"
+            checked
+          />
+        </div>
+        <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+        <input type="text" name="name" id="name" placeholder="Email" required />
+        <label id="icon" for="name"><i class="fas fa-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <label id="icon" for="name"><i class="fas fa-lock"></i></label>
+        <input
+          type="password"
+          name="name"
+          id="name"
+          placeholder="Password"
+          required
+        />
+        <hr />
+        <div class="btn-block">
+          <p>
+            Before Register, you can check our
+            <a href="#">Privacy Policy.</a>.
+          </p>
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

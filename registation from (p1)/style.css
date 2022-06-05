@@ -1,0 +1,160 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+body,
+div,
+h1,
+form,
+input,
+p {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  padding: 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+p {
+  font-size: 12px;
+}
+hr {
+  color: #a9a9a9;
+  opacity: 0.3;
+}
+.main-block {
+  max-width: 340px;
+  min-height: 460px;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 1rem;
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #2e2961,
+    #693083,
+    #ad2a96,
+    #f40498
+  );
+}
+form {
+  margin: 0 30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+label#icon {
+  margin: 0;
+  border-radius: 1rem 0 0 1rem;
+}
+label.radio {
+  position: relative;
+  display: inline-block;
+  padding-top: 5px;
+  margin-right: 20px;
+  text-indent: 30px;
+  overflow: visible;
+  cursor: pointer;
+}
+label.radio:after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 4px;
+  top: 8px;
+  left: 4px;
+  border: 2px solid rgb(255, 255, 255);
+  border-top: none;
+  border-right: none;
+  transform: rotate(-50deg);
+  opacity: 0;
+}
+input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 57px);
+  height: 36.7px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-radius: 0 1rem 1rem 0;
+  border: solid 1px #cbc9c9;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: rgba(255, 255, 255, 0.719);
+}
+input[type="password"] {
+  margin-bottom: 15px;
+}
+#icon {
+  display: inline-block;
+  padding: 9.3px 15px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: #e13c99a2;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-block {
+  margin-top: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px auto;
+  border-radius: 15px;
+  border: none;
+  background-image: linear-gradient(
+    to right top,
+    #2c7bf0,
+    #2371e9,
+    #1b67e2,
+    #135ddb,
+    #0c53d4
+  );
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #26a9e0;
+}
